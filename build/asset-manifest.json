@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e69a3cc6.chunk.css",
+    "main.js": "/static/js/main.dad328d0.chunk.js",
+    "main.js.map": "/static/js/main.dad328d0.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.5882ec8b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.5882ec8b.js.map",
+    "static/js/2.64704772.chunk.js": "/static/js/2.64704772.chunk.js",
+    "static/js/2.64704772.chunk.js.map": "/static/js/2.64704772.chunk.js.map",
+    "static/js/3.92b7e9ee.chunk.js": "/static/js/3.92b7e9ee.chunk.js",
+    "static/js/3.92b7e9ee.chunk.js.map": "/static/js/3.92b7e9ee.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e69a3cc6.chunk.css.map": "/static/css/main.e69a3cc6.chunk.css.map",
+    "static/js/2.64704772.chunk.js.LICENSE.txt": "/static/js/2.64704772.chunk.js.LICENSE.txt",
+    "static/media/1.a256993f.jpg": "/static/media/1.a256993f.jpg",
+    "static/media/2.2e03c1c6.jpg": "/static/media/2.2e03c1c6.jpg",
+    "static/media/3.de917e33.jpg": "/static/media/3.de917e33.jpg",
+    "static/media/globalstyle.css": "/static/media/Gayathri-Thin.2d8fc7eb.ttf",
+    "static/media/avatar.9114e4e4.jpg": "/static/media/avatar.9114e4e4.jpg",
+    "static/media/history.1a06be8a.jpg": "/static/media/history.1a06be8a.jpg",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg",
+    "static/media/logo.b901df62.png": "/static/media/logo.b901df62.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.5882ec8b.js",
+    "static/js/2.64704772.chunk.js",
+    "static/css/main.e69a3cc6.chunk.css",
+    "static/js/main.dad328d0.chunk.js"
+  ]
+}
