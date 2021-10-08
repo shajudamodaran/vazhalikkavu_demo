@@ -1,5 +1,4 @@
-import React, { useEffect, useState, useRef } from 'react'
-import { useDispatch } from 'react-redux'
+import React, { useEffect, useState } from 'react'
 import Footer from '../../Components/Footer/Footer'
 import MainHeader from '../../Components/MainHeader/MainHeader'
 
@@ -26,15 +25,6 @@ function About() {
 
 
     }, []);
-
-    const dispatch = useDispatch()
-
-    let handleBodyCick = () => {
-
-
-
-
-    }
 
 
 

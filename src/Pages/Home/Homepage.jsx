@@ -1,6 +1,4 @@
 import React,{useState,useEffect} from 'react'
-import { useDispatch, useSelector } from 'react-redux'
-import { useHistory } from 'react-router'
 import Caretakers from '../../Components/Caretakers/Caretakers'
 import Footer from '../../Components/Footer/Footer'
 import ImageSlider from '../../Components/ImageSlider/ImageSlider'
@@ -8,7 +6,7 @@ import MainHeader from '../../Components/MainHeader/MainHeader'
 import MiddleMenu from '../../Components/MiddleMenu/MiddleMenu'
 import RitualsTable from '../../Components/Rituals Table/RitualsTable'
 import ProgramContainte from '../../Components/TemplePrograms/ProgramContainte'
-import { toggleDrawer } from '../../Redux/BooleanSlice'
+
 
 
 import './home.css'
@@ -33,15 +31,7 @@ function Homepage() {
         };
     }, []);
 
-    const dispatch = useDispatch()
 
-    let handleBodyCick=()=>{
-
-
-    }
-
-
-  
 
 
     return (

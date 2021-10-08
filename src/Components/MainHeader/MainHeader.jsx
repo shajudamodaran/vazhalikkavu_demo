@@ -4,7 +4,6 @@ import './mainheader.css'
 import logo from '../../Images/Logos/logo.png'
 import { useDispatch, useSelector } from 'react-redux'
 import { toggleDrawer } from '../../Redux/BooleanSlice'
-import { handleNavigation } from '../../Helpers/helpers'
 import { useHistory, useLocation } from 'react-router'
 import { setActivePage } from '../../Redux/ActivePageSlice'
 import { PAGE_NAMES } from '../../Constants/Constants'
@@ -79,12 +78,12 @@ function MainHeader({ scrollPosition }) {
 
 
                 <div>
-                    <span className={activeState==PAGE_NAMES[0]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[0])}}>Home</span>
-                    <span className={activeState==PAGE_NAMES[1]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[1])}}>About</span>
-                    <span className={activeState==PAGE_NAMES[2]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[2])}}>Photo Gallery</span>
-                    <span className={activeState==PAGE_NAMES[3]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[3])}}>Offering</span>
-                    <span className={activeState==PAGE_NAMES[4]?"active-header-menu":"inactive-header-menu"}>Pooja Times</span>
-                    <span className={activeState==PAGE_NAMES[5]?"active-header-menu":"inactive-header-menu"}>Contact Us</span>
+                    <span className={activeState===PAGE_NAMES[0]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[0])}}>Home</span>
+                    <span className={activeState===PAGE_NAMES[1]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[1])}}>About</span>
+                    <span className={activeState===PAGE_NAMES[2]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[2])}}>Photo Gallery</span>
+                    <span className={activeState===PAGE_NAMES[3]?"active-header-menu":"inactive-header-menu"} onClick={()=>{handleNavigation(PAGE_NAMES[3])}}>Offering</span>
+                    <span className={activeState===PAGE_NAMES[4]?"active-header-menu":"inactive-header-menu"}>Pooja Times</span>
+                    <span className={activeState===PAGE_NAMES[5]?"active-header-menu":"inactive-header-menu"}>Contact Us</span>
 
 
 
@@ -120,12 +119,12 @@ function MainHeader({ scrollPosition }) {
 
                     <div className="mt-2">
                         <ul className="nav-ul">
-                            <li className={activeState==PAGE_NAMES[0]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[0])}}>Home</li>
-                            <li className={activeState==PAGE_NAMES[1]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[1])}}>About</li>
-                            <li className={activeState==PAGE_NAMES[2]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[2])}}>Photo Gallery</li>
-                            <li className={activeState==PAGE_NAMES[3]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[3])}}>Offering</li>
-                            <li className={activeState==PAGE_NAMES[4]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[4])}}>Pooja Times</li>
-                            <li className={activeState==PAGE_NAMES[5]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[5])}}>Contact Us</li>
+                            <li className={activeState===PAGE_NAMES[0]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[0])}}>Home</li>
+                            <li className={activeState===PAGE_NAMES[1]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[1])}}>About</li>
+                            <li className={activeState===PAGE_NAMES[2]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[2])}}>Photo Gallery</li>
+                            <li className={activeState===PAGE_NAMES[3]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[3])}}>Offering</li>
+                            <li className={activeState===PAGE_NAMES[4]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[4])}}>Pooja Times</li>
+                            <li className={activeState===PAGE_NAMES[5]?"active-nav-text":null} onClick={()=>{handleNavigationSmall(PAGE_NAMES[5])}}>Contact Us</li>
                         </ul>
                     </div>
 

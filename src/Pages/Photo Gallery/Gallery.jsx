@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from 'react'
-import { useDispatch } from 'react-redux';
 import Footer from '../../Components/Footer/Footer';
 import MainHeader from '../../Components/MainHeader/MainHeader';
 import PhotoFolder from '../../Components/PhotoFolder/PhotoFolder';
@@ -32,8 +31,6 @@ function Gallery() {
 
 
     }, []);
-
-    const dispatch = useDispatch()
 
 
     return (

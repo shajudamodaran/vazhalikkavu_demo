@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react'
-import { useDispatch } from 'react-redux';
 import Footer from '../../Components/Footer/Footer';
 import MainHeader from '../../Components/MainHeader/MainHeader';
 import { ClickHereIcon } from '../../Icons/Icons';
@@ -26,7 +25,7 @@ function Offerings() {
 
     }, []);
 
-    const dispatch = useDispatch()
+
 
 
     return (
