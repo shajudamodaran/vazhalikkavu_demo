@@ -23,14 +23,15 @@ function MainHeader({ scrollPosition }) {
     useEffect(() => {
 
         setActiveState(activePageRedux)
-        console.log(activeState,PAGE_NAMES[1]);
-       
+        
     }, [activePageRedux])
 
 
     useEffect(() => {
         setDrawerStatus(count)
-        setActiveState(location.pathname?location.pathname:"/")
+        setActiveState(location.pathname)
+        console.log(location.pathname);
+
 
     }, [])
 
@@ -38,8 +39,7 @@ function MainHeader({ scrollPosition }) {
 
     useEffect(() => {
         setDrawerStatus(count)
-        console.log(drawerStatus);
-
+       
     }, [count])
 
 
